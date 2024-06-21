@@ -1,12 +1,14 @@
 ---
 - hosts: all
   become: yes
+  gather_facts: yes
   tasks: 
    - name: install webserver on ubuntu nodes side
      apt: 
         name: apache2
         state: present
-        
+     when: ansible_os_family=="Debian"
+     
    - name: start webserver on ubuntu nodes side
      service: 
         name: apache2
