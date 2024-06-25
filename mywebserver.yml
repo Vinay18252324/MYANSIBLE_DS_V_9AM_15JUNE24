@@ -13,14 +13,18 @@
      service: 
         name: apache2
         state: started
+      when: ansible_os_family=="Debian"
 
    - name: install webserver on redhat nodes side
      dnf: 
         name: httpd
         state: present
+     when: ansible_os_family=="RedHat"
 
    - name: start webserver on redhat nodes side
      service:
         name: httpd
         state: started
+     when: ansible_os_family=="RedHat"
+ 
 
