@@ -17,9 +17,10 @@
    - name: install webserver on redhat nodes side
      dnf: 
         name: httpd
-        state: present  
+        state: present
+
    - name: start webserver on redhat nodes side
-     dnf:
+     service:
         name: httpd
         state: started
 
