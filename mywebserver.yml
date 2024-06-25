@@ -1,5 +1,5 @@
 ---
-- hosts: 10.0.0.7
+- hosts: all
   become: yes
   gather_facts: yes
   tasks: 
