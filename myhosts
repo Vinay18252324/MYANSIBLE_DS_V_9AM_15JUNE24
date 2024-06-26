@@ -1,4 +1,11 @@
+[mywebserver]
 10.0.0.5
+10.0.0.7
+
+[myubuntuserver]
+10.0.0.3
+
+[myredhatserver]
 10.0.0.7
 
 
