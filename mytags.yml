@@ -2,20 +2,20 @@
 - hosts : 10.0.0.5
   become: yes
   tasks: 
-  - name: to install git
+  - name: install git
     apt:
-      name: git
-      state: present
-      tags: mygit
+       name: git
+       state: present
+       tags: mygit
 
-  - name: to install tree
+  - name: install tree
     apt:
-      name: tree
-      state: present
-      tags: mytree
+       name: tree
+       state: present
+       tags: mytree
 
-  - name: to install wget
+  - name: install wget
     apt:
-      name: wget
-      state: present
-      tags: mywget
+       name: wget
+       state: present
+       tags: mywget
