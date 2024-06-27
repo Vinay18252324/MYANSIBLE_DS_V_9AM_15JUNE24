@@ -20,5 +20,5 @@
     apt: 
       name: git
       state: present
-    when: myfirsttaskresult.stderr!=""
+    when: myfisrsttaskresult.stderr!=""
  
