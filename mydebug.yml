@@ -14,10 +14,9 @@
     apt:
       name: tree
       state: present
-    when: myfirsttaskresult.stderr== ""
 
   - name: i want to install git
     apt: 
       name: git
       state: present
-    when: myfirsttaskresult.stderr!= ""
+ 
