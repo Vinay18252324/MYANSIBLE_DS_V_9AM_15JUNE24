@@ -2,6 +2,9 @@
 10.0.0.5
 10.0.0.7
 
+ [myappserver]
+  10.0.0.10
+
 [myubuntuserver]
 10.0.0.3
 
@@ -10,7 +13,6 @@
 
 
 
-[myappserver]
-10.0.0.10
+
 
  
