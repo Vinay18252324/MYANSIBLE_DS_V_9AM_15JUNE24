@@ -1,2 +1,8 @@
 ---
 # tasks file for mytomcatrole
+- inculed_tasks: adduser.yml
+- inculed_tasks: installjava.yml
+- inculed_tasks: tomcatdownload.yml
+- inculed_tasks: mypermission.yml
+- inculed_tasks: tomcatdashboard.yml
+- inculed_tasks: starttomcat.yml
