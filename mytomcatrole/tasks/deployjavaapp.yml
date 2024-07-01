@@ -1,6 +1,6 @@
 ---
 - name: Deploy jenkins as java application
   get_url:
-    url: https://updates.jenkins.io/download/war/2.464/jenkins.war
+    url: https://mystorageacc9amm.blob.core.windows.net/myfolder/jenkins.war
     dest: /opt/tomcat/webapps/jenkins.war
     force_basic_auth: yes
