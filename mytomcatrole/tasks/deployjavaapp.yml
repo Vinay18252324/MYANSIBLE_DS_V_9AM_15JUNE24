@@ -1,6 +1,6 @@
 ---
 - name: Deploy jenkins as java application
   get_url:
-    url: https://mystorageacc9amm.blob.core.windows.net/myfolder/SampleWebApp.war
-    dest: /opt/tomcat/webapps/SampleWebApp.war
+    url: https://mystorageacc9amm.blob.core.windows.net/myfolder/sample.war
+    dest: /opt/tomcat/webapps/sample.war
     force_basic_auth: yes
